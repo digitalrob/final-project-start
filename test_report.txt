@@ -11,13 +11,14 @@ PASS src/App.test.tsx
 -----------------|---------|----------|---------|---------|-------------------
 File             | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -----------------|---------|----------|---------|---------|-------------------
-All files        |    1.81 |        0 |    5.26 |    1.85 |                   
+All files        |    1.72 |        0 |    4.76 |    1.75 |                   
  App.tsx         |     100 |      100 |     100 |     100 |                   
  Board.tsx       |       0 |        0 |       0 |       0 | 7-36              
  BoardSquare.tsx |       0 |        0 |       0 |       0 | 13-26             
  DropDown.tsx    |       0 |      100 |       0 |       0 | 9-21              
  Overlay.tsx     |       0 |      100 |       0 |       0 | 7-8               
  Pic.tsx         |       0 |        0 |       0 |       0 | 5-13              
+ PopUpSlider.tsx |       0 |        0 |       0 |       0 | 10-20             
  Square.tsx      |       0 |        0 |       0 |       0 | 7-11              
  constants.ts    |       0 |      100 |     100 |       0 | 1                 
  game.ts         |       0 |        0 |       0 |       0 | 1-27              
@@ -25,5 +26,5 @@ All files        |    1.81 |        0 |    5.26 |    1.85 |
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        1.904 s
+Time:        1.967 s
 Ran all test suites.
