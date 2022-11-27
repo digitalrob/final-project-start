@@ -11,7 +11,7 @@ PASS src/App.test.tsx
 -------------------|---------|----------|---------|---------|-------------------
 File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -------------------|---------|----------|---------|---------|-------------------
-All files          |       1 |        0 |    3.12 |    1.04 |                   
+All files          |    0.91 |        0 |    2.85 |    0.95 |                   
  src               |    1.58 |        0 |       4 |    1.61 |                   
   App.tsx          |     100 |      100 |     100 |     100 |                   
   BackgroundDD.tsx |       0 |      100 |       0 |       0 | 9-21              
@@ -28,12 +28,15 @@ All files          |       1 |        0 |    3.12 |    1.04 |
  src/Interface     |       0 |        0 |       0 |       0 |                   
   Pokemon.tsx      |       0 |        0 |       0 |       0 |                   
  src/Pokemon       |       0 |      100 |       0 |       0 |                   
+  Bulbasaur.tsx    |       0 |      100 |       0 |       0 | 4-7               
   Charizard.tsx    |       0 |      100 |       0 |       0 | 4-7               
+  Lucario.tsx      |       0 |      100 |       0 |       0 | 4-7               
+  Snorlax.tsx      |       0 |      100 |       0 |       0 | 4-7               
  src/hooks         |       0 |        0 |       0 |       0 |                   
   useDragger.ts    |       0 |        0 |       0 |       0 | 5-62              
 -------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        2.658 s
+Time:        2.327 s
 Ran all test suites.
