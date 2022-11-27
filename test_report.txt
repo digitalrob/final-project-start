@@ -6,7 +6,7 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 PASS src/App.test.tsx
-  ✓ renders the course name somewhere (52 ms)
+  ✓ renders the course name somewhere (32 ms)
 
 -------------------|---------|----------|---------|---------|-------------------
 File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
@@ -30,10 +30,10 @@ All files          |       1 |        0 |    3.12 |    1.04 |
  src/Pokemon       |       0 |      100 |       0 |       0 |                   
   Charizard.tsx    |       0 |      100 |       0 |       0 | 4-7               
  src/hooks         |       0 |        0 |       0 |       0 |                   
-  useDragger.ts    |       0 |        0 |       0 |       0 | 4-61              
+  useDragger.ts    |       0 |        0 |       0 |       0 | 5-62              
 -------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        3.096 s
+Time:        2.658 s
 Ran all test suites.
