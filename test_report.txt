@@ -6,12 +6,12 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 PASS src/App.test.tsx
-  ✓ renders the course name somewhere (32 ms)
+  ✓ renders the course name somewhere (37 ms)
 
 -------------------|---------|----------|---------|---------|-------------------
 File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -------------------|---------|----------|---------|---------|-------------------
-All files          |    0.78 |        0 |    2.43 |    0.81 |                   
+All files          |    0.71 |        0 |    2.22 |    0.74 |                   
  src               |    1.58 |        0 |       4 |    1.61 |                   
   App.tsx          |     100 |      100 |     100 |     100 |                   
   BackgroundDD.tsx |       0 |      100 |       0 |       0 | 9-21              
@@ -31,12 +31,16 @@ All files          |    0.78 |        0 |    2.43 |    0.81 |
   Bulbasaur.tsx    |       0 |      100 |       0 |       0 | 4-7               
   Charizard.tsx    |       0 |      100 |       0 |       0 | 4-7               
   Eevee.tsx        |       0 |      100 |       0 |       0 | 4-7               
+  Garchomp.tsx     |       0 |      100 |       0 |       0 | 4-7               
+  Jigglypuff.tsx   |       0 |      100 |       0 |       0 | 4-7               
   Jolteon.tsx      |       0 |      100 |       0 |       0 | 4-7               
   Lucario.tsx      |       0 |      100 |       0 |       0 | 4-7               
   Nidoking.tsx     |       0 |      100 |       0 |       0 | 4-7               
   Pikachu.tsx      |       0 |      100 |       0 |       0 | 4-7               
+  Rattata.tsx      |       0 |      100 |       0 |       0 | 4-7               
   Rhydon.tsx       |       0 |      100 |       0 |       0 | 4-7               
   Snorlax.tsx      |       0 |      100 |       0 |       0 | 4-7               
+  Venusaur.tsx     |       0 |      100 |       0 |       0 | 4-7               
   Wartortle.tsx    |       0 |      100 |       0 |       0 | 4-7               
  src/hooks         |       0 |        0 |       0 |       0 |                   
   useDragger.ts    |       0 |        0 |       0 |       0 | 5-62              
@@ -44,5 +48,5 @@ All files          |    0.78 |        0 |    2.43 |    0.81 |
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        2.578 s
+Time:        3.101 s
 Ran all test suites.
