@@ -9,6 +9,24 @@ export function BDropDown({ options }: { options: string[] }): JSX.Element {
     const [choice, setChoice] = useState<string>(options[0]);
     function updateChoice(event: ChangeEvent) {
         setChoice(event.target.value);
+        changeBackground(choice);
+    }
+    function changeBackground(option: string) {
+        const box = document.getElementById("box");
+        if (option.includes("Forest")) {
+            if (box != null) {
+                box.style.backgroundImage =
+                    "url(https://images.unsplash.com/photo-1558022103-603c34ab10ce?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80)";
+            }
+        } else if (option === "Volcano") {
+            if (box != null) {
+                box.style.backgroundColor = "red";
+            }
+        } else if (option === "Waterfall") {
+            if (box != null) {
+                box.style.backgroundColor = "cyan";
+            }
+        }
     }
 
     return (
