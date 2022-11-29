@@ -32,48 +32,114 @@ export function PopUpSlider(): JSX.Element {
                             <DropDown
                                 options={[
                                     "",
-                                    "Charzaird",
                                     "Bulbausar",
+                                    "Charzaird",
+                                    "Eevee",
+                                    "Garchomp",
+                                    "Jigglypuff",
+                                    "Jolteon",
+                                    "Lucario",
+                                    "Nidoking",
+                                    "Pikachu",
+                                    "Rattata",
+                                    "Rhydon",
+                                    "Snorlax",
+                                    "Venusaur",
                                     "Wartortle"
                                 ]}
                             ></DropDown>
                             <DropDown
                                 options={[
                                     "",
-                                    "Charzaird",
                                     "Bulbausar",
+                                    "Charzaird",
+                                    "Eevee",
+                                    "Garchomp",
+                                    "Jigglypuff",
+                                    "Jolteon",
+                                    "Lucario",
+                                    "Nidoking",
+                                    "Pikachu",
+                                    "Rattata",
+                                    "Rhydon",
+                                    "Snorlax",
+                                    "Venusaur",
                                     "Wartortle"
                                 ]}
                             ></DropDown>
                             <DropDown
                                 options={[
                                     "",
-                                    "Charzaird",
                                     "Bulbausar",
+                                    "Charzaird",
+                                    "Eevee",
+                                    "Garchomp",
+                                    "Jigglypuff",
+                                    "Jolteon",
+                                    "Lucario",
+                                    "Nidoking",
+                                    "Pikachu",
+                                    "Rattata",
+                                    "Rhydon",
+                                    "Snorlax",
+                                    "Venusaur",
                                     "Wartortle"
                                 ]}
                             ></DropDown>
                             <DropDown
                                 options={[
                                     "",
-                                    "Charzaird",
                                     "Bulbausar",
+                                    "Charzaird",
+                                    "Eevee",
+                                    "Garchomp",
+                                    "Jigglypuff",
+                                    "Jolteon",
+                                    "Lucario",
+                                    "Nidoking",
+                                    "Pikachu",
+                                    "Rattata",
+                                    "Rhydon",
+                                    "Snorlax",
+                                    "Venusaur",
                                     "Wartortle"
                                 ]}
                             ></DropDown>
                             <DropDown
                                 options={[
                                     "",
-                                    "Charzaird",
                                     "Bulbausar",
+                                    "Charzaird",
+                                    "Eevee",
+                                    "Garchomp",
+                                    "Jigglypuff",
+                                    "Jolteon",
+                                    "Lucario",
+                                    "Nidoking",
+                                    "Pikachu",
+                                    "Rattata",
+                                    "Rhydon",
+                                    "Snorlax",
+                                    "Venusaur",
                                     "Wartortle"
                                 ]}
                             ></DropDown>
                             <DropDown
                                 options={[
                                     "",
-                                    "Charzaird",
                                     "Bulbausar",
+                                    "Charzaird",
+                                    "Eevee",
+                                    "Garchomp",
+                                    "Jigglypuff",
+                                    "Jolteon",
+                                    "Lucario",
+                                    "Nidoking",
+                                    "Pikachu",
+                                    "Rattata",
+                                    "Rhydon",
+                                    "Snorlax",
+                                    "Venusaur",
                                     "Wartortle"
                                 ]}
                             ></DropDown>
