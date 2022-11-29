@@ -57,6 +57,26 @@
     border-radius: 50%;
     cursor: pointer;
 }
+.Wartortle {
+    position: absolute;
+    top: 0;
+    right: 100px;
+    background-color: rgb(33, 167, 191);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Pikachu {
+    position: absolute;
+    top: 0;
+    right: 350px;
+    background-color: rgb(238, 220, 54);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
 .Lucario {
     position: absolute;
     bottom: 0;
@@ -67,6 +87,37 @@
     border-radius: 50%;
     cursor: pointer;
 }
+.Rhydon {
+    position: absolute;
+    top: 0;
+    right: 750px;
+    background-color: rgb(146, 170, 174);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Eevee {
+    position: absolute;
+    top: 250px;
+    bottom: 600px;
+    right: 300px;
+    background-color: rgb(160, 82, 45);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Joleton {
+    position: absolute;
+    top: 0;
+    bottom: 750px;
+    background-color: rgb(170, 167, 77);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
 .Snorlax {
     position: absolute;
     bottom: 0;
@@ -74,6 +125,17 @@
     background-color: rgb(126, 128, 131);
     height: 240px;
     width: 240px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Nidoking {
+    position: absolute;
+    top: 450px;
+    bottom: 0;
+    right: 600px;
+    background-color: rgb(195, 177, 225);
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     cursor: pointer;
 }

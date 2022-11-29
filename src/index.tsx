@@ -8,7 +8,12 @@ import Lucario from "./Pokemon/Lucario";
 import Charizard from "./Pokemon/Charizard";
 import Bulbasaur from "./Pokemon/Bulbasaur";
 import Snorlax from "./Pokemon/Snorlax";
-
+import Wartortle from "./Pokemon/Wartortle";
+import Pikachu from "./Pokemon/Pikachu";
+import Rhydon from "./Pokemon/Rhydon";
+import Jolteon from "./Pokemon/Jolteon";
+import Eevee from "./Pokemon/Eevee";
+import Nidoking from "./Pokemon/Nidoking";
 ReactDOM.render(
     <>
         <div>
@@ -22,6 +27,12 @@ ReactDOM.render(
                 <Bulbasaur />
                 <Lucario />
                 <Snorlax />
+                <Wartortle />
+                <Pikachu />
+                <Rhydon />
+                <Jolteon />
+                <Eevee />
+                <Nidoking />
             </div>
         </React.StrictMode>
     </>,
