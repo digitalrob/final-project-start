@@ -11,7 +11,7 @@ PASS src/App.test.tsx
 -------------------|---------|----------|---------|---------|-------------------
 File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -------------------|---------|----------|---------|---------|-------------------
-All files          |    0.91 |        0 |    2.85 |    0.95 |                   
+All files          |    0.78 |        0 |    2.43 |    0.81 |                   
  src               |    1.58 |        0 |       4 |    1.61 |                   
   App.tsx          |     100 |      100 |     100 |     100 |                   
   BackgroundDD.tsx |       0 |      100 |       0 |       0 | 9-21              
@@ -30,13 +30,19 @@ All files          |    0.91 |        0 |    2.85 |    0.95 |
  src/Pokemon       |       0 |      100 |       0 |       0 |                   
   Bulbasaur.tsx    |       0 |      100 |       0 |       0 | 4-7               
   Charizard.tsx    |       0 |      100 |       0 |       0 | 4-7               
+  Eevee.tsx        |       0 |      100 |       0 |       0 | 4-7               
+  Jolteon.tsx      |       0 |      100 |       0 |       0 | 4-7               
   Lucario.tsx      |       0 |      100 |       0 |       0 | 4-7               
+  Nidoking.tsx     |       0 |      100 |       0 |       0 | 4-7               
+  Pikachu.tsx      |       0 |      100 |       0 |       0 | 4-7               
+  Rhydon.tsx       |       0 |      100 |       0 |       0 | 4-7               
   Snorlax.tsx      |       0 |      100 |       0 |       0 | 4-7               
+  Wartortle.tsx    |       0 |      100 |       0 |       0 | 4-7               
  src/hooks         |       0 |        0 |       0 |       0 |                   
   useDragger.ts    |       0 |        0 |       0 |       0 | 5-62              
 -------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        2.327 s
+Time:        2.578 s
 Ran all test suites.
