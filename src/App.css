@@ -108,10 +108,10 @@
     border-radius: 50%;
     cursor: pointer;
 }
-.Joleton {
+.Jolteon {
     position: absolute;
-    top: 0;
-    bottom: 750px;
+    top: 350px;
+    bottom: 0px;
     background-color: rgb(170, 167, 77);
     height: 120px;
     width: 120px;
@@ -125,6 +125,50 @@
     background-color: rgb(126, 128, 131);
     height: 240px;
     width: 240px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Garchomp {
+    position: absolute;
+    top: 345px;
+    bottom: 0;
+    left: 1000px;
+    background-color: rgb(3, 37, 126);
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Rattata {
+    position: absolute;
+    top: 150px;
+    bottom: 0;
+    right: 150px;
+    background-color: rgb(195, 177, 225);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Jigglypuff {
+    position: absolute;
+    top: 100px;
+    bottom: 0;
+    right: 650px;
+    background-color: rgb(255, 182, 193);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Venusaur {
+    position: absolute;
+    top: 150px;
+    bottom: 0;
+    right: 450px;
+    background-color: rgb(48, 213, 200);
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
     cursor: pointer;
 }

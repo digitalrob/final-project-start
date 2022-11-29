@@ -14,6 +14,10 @@ import Rhydon from "./Pokemon/Rhydon";
 import Jolteon from "./Pokemon/Jolteon";
 import Eevee from "./Pokemon/Eevee";
 import Nidoking from "./Pokemon/Nidoking";
+import Rattata from "./Pokemon/Rattata";
+import Venusaur from "./Pokemon/Venusaur";
+import Jigglypuff from "./Pokemon/Jigglypuff";
+import Garchomp from "./Pokemon/Garchomp";
 ReactDOM.render(
     <>
         <div>
@@ -33,6 +37,10 @@ ReactDOM.render(
                 <Jolteon />
                 <Eevee />
                 <Nidoking />
+                <Rattata />
+                <Venusaur />
+                <Jigglypuff />
+                <Garchomp />
             </div>
         </React.StrictMode>
     </>,
