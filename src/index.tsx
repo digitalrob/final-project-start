@@ -26,7 +26,13 @@ ReactDOM.render(
         </div>
         <hr></hr>
         <React.StrictMode>
-            <div className="container" style={{ textAlign: "center" }}>
+            <div
+                className="container"
+                id="box"
+                style={{
+                    textAlign: "center"
+                }}
+            >
                 <Charizard />
                 <Bulbasaur />
                 <Lucario />
