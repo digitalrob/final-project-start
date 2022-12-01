@@ -6,7 +6,12 @@ const Wartortle: React.FC = () => {
 
     return (
         <div id="Wartortle" className="Wartortle">
-            <img src={require("./008.png")} width="100" height="100" />
+            <img
+                draggable="false"
+                src={require("./008.png")}
+                width="100"
+                height="100"
+            />
         </div>
     );
 };

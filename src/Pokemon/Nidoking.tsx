@@ -6,7 +6,12 @@ const Nidoking: React.FC = () => {
 
     return (
         <div id="Nidoking" className="Nidoking">
-            <img src={require("./034.png")} width="100" height="100" />
+            <img
+                draggable="false"
+                src={require("./034.png")}
+                width="100"
+                height="100"
+            />
         </div>
     );
 };

@@ -6,7 +6,12 @@ const Snorlax: React.FC = () => {
 
     return (
         <div id="Snorlax" className="Snorlax">
-            <img src={require("./143.png")} width="200" height="200" />
+            <img
+                draggable="false"
+                src={require("./143.png")}
+                width="200"
+                height="200"
+            />
         </div>
     );
 };

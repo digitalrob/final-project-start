@@ -6,7 +6,12 @@ const Garchomp: React.FC = () => {
 
     return (
         <div id="Garchomp" className="Garchomp">
-            <img src={require("./445.png")} width="100" height="100" />
+            <img
+                draggable="false"
+                src={require("./445.png")}
+                width="100"
+                height="100"
+            />
         </div>
     );
 };

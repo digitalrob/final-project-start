@@ -6,7 +6,12 @@ const Rhydon: React.FC = () => {
 
     return (
         <div id="Rhydon" className="Rhydon">
-            <img src={require("./112.png")} width="100" height="100" />
+            <img
+                draggable="false"
+                src={require("./112.png")}
+                width="100"
+                height="100"
+            />
         </div>
     );
 };

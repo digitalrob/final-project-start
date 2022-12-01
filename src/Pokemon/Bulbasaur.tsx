@@ -7,7 +7,12 @@ const Bulbasaur: React.FC = () => {
 
     return (
         <div id="Bulbasaur" className="Bulbasaur">
-            <img src={require("./001.png")} width="100" height="100" />
+            <img
+                draggable="false"
+                src={require("./001.png")}
+                width="100"
+                height="100"
+            />
         </div>
     );
 };

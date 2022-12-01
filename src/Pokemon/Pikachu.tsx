@@ -6,7 +6,12 @@ const Pikachu: React.FC = () => {
 
     return (
         <div id="Pikachu" className="Pikachu">
-            <img src={require("./25.png")} width="100" height="100" />
+            <img
+                draggable="false"
+                src={require("./25.png")}
+                width="100"
+                height="100"
+            />
         </div>
     );
 };
