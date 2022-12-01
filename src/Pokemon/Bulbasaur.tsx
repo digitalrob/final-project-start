@@ -1,6 +1,7 @@
 import React from "react";
 import useDragger from "../hooks/useDragger";
 
+//const Arr[] = "Bulbasaur, Charizard, Eevee, Garchomp, Jigglypuff, Jolteon, Lucario, Nidoking, Pikachu, Rattata, Rhydon, Snorlax, Venusaur, Wartortle";
 const Bulbasaur: React.FC = () => {
     useDragger("Bulbasaur");
 
