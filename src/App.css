@@ -50,7 +50,7 @@
 .Bulbasaur {
     position: absolute;
     top: 0;
-    right: 1000px;
+    right: 500px;
     background-color: rgb(43, 226, 134);
     height: 120px;
     width: 120px;
@@ -80,7 +80,7 @@
 .Lucario {
     position: absolute;
     bottom: 0;
-    right: 1100px;
+    right: 700px;
     background-color: rgb(193, 25, 25);
     height: 240px;
     width: 240px;
@@ -132,7 +132,7 @@
     position: absolute;
     top: 345px;
     bottom: 0;
-    left: 1000px;
+    left: 500px;
     background-color: rgb(3, 37, 126);
     height: 140px;
     width: 140px;
@@ -174,8 +174,9 @@
 }
 .Nidoking {
     position: absolute;
+    left: 300px;
     top: 450px;
-    bottom: 0;
+    bottom: 200px;
     right: 600px;
     background-color: rgb(195, 177, 225);
     height: 120px;
@@ -184,9 +185,10 @@
     cursor: pointer;
 }
 .container {
+    top: -105px;
     position: relative;
     border: 1px solid black;
-    height: 800px;
-    width: 1500px;
+    height: 700px;
+    width: 1000px;
     overflow: hidden;
 }

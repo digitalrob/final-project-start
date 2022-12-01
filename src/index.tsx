@@ -21,10 +21,24 @@ import Garchomp from "./Pokemon/Garchomp";
 ReactDOM.render(
     <>
         <div>
-            <h3 style={{ textAlign: "center" }}>Welcome to Poke Team Design</h3>
+            <h3 style={{ textAlign: "center", fontSize: "3rem" }}>
+                Welcome to Poke Team Design
+            </h3>
+            <h4 style={{ textAlign: "center", fontSize: "1rem" }}>
+                By Alex Daley, Patrick Harris, Robert Reardon
+            </h4>
             <PopUpSlider></PopUpSlider>
         </div>
         <hr></hr>
+        <h4 style={{ fontSize: "1.5rem" }}> Website Description:</h4>
+        <h5 style={{ textAlign: "left", fontSize: "1rem" }}>
+            Our site is a great way for you to find some of your favorite
+            Pokémon
+        </h5>
+        <h6>
+            as well as choose a cool background image! Click show selections to
+        </h6>
+        <h6>get started!</h6>
         <React.StrictMode>
             <div
                 className="container"
