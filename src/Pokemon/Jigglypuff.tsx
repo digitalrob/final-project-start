@@ -6,7 +6,12 @@ const Jigglypuff: React.FC = () => {
 
     return (
         <div id="Jigglypuff" className="Jigglypuff">
-            <img src={require("./039.png")} width="100" height="100" />
+            <img
+                draggable="false"
+                src={require("./039.png")}
+                width="100"
+                height="100"
+            />
         </div>
     );
 };

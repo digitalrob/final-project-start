@@ -6,7 +6,12 @@ const Venusaur: React.FC = () => {
 
     return (
         <div id="Venusaur" className="Venusaur">
-            <img src={require("./003.png")} width="100" height="100" />
+            <img
+                draggable="false"
+                src={require("./003.png")}
+                width="100"
+                height="100"
+            />
         </div>
     );
 };

@@ -6,7 +6,12 @@ const Eevee: React.FC = () => {
 
     return (
         <div id="Eevee" className="Eevee">
-            <img src={require("./133.png")} width="100" height="100" />
+            <img
+                draggable="false"
+                src={require("./133.png")}
+                width="100"
+                height="100"
+            />
         </div>
     );
 };
