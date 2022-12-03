@@ -30,15 +30,14 @@ ReactDOM.render(
             <PopUpSlider></PopUpSlider>
         </div>
         <hr></hr>
-        <h4 style={{ fontSize: "1.5rem" }}> Website Description:</h4>
-        <h5 style={{ textAlign: "left", fontSize: "1rem" }}>
-            Our site is a great way for you to find some of your favorite
-            Pokémon
-        </h5>
-        <h6>
-            as well as choose a cool background image! Click show selections to
-        </h6>
-        <h6>get started!</h6>
+        <div className="box">
+            <h4 style={{ fontSize: "1.6rem" }}> Website Description:</h4>
+            <h5 style={{ textAlign: "left", fontSize: "1.0rem" }}>
+                Our site is a great way for you to find some of your favorite
+                Pokémon as well as choose a cool background image! Click show
+                selections to get started!
+            </h5>
+        </div>
         <React.StrictMode>
             <div
                 className="container"

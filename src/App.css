@@ -185,10 +185,10 @@
     cursor: pointer;
 }
 .container {
-    top: -105px;
+    top: -145px;
     position: relative;
     border: 1px solid black;
-    height: 700px;
+    height: 900px;
     width: 1000px;
     overflow: hidden;
 }
