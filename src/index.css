@@ -12,13 +12,15 @@ code {
         monospace;
 }
 
-.container {
-    background-size: 1500px;
-    background-color: rgb(239, 230, 230);
+.main-box {
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    background-color: rgb(133, 36, 36);
     background-repeat: no-repeat;
 }
-.box {
-    inline-size: 250px;
-    text-align-last: auto;
-    writing-mode: horizontal-tb;
+.side-col {
+    height: 600px;
+    width: 150px;
+    position: left;
 }
