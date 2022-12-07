@@ -41,136 +41,97 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: blueviolet;
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 200px;
 }
 .Bulbasaur {
     position: absolute;
     top: 0;
     right: 500px;
-    background-color: rgb(43, 226, 134);
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 100px;
 }
 .Wartortle {
     position: absolute;
     top: 0;
     right: 100px;
-    background-color: rgb(33, 167, 191);
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 100px;
 }
 .Pikachu {
     position: absolute;
     top: 0;
     right: 350px;
-    background-color: rgb(238, 220, 54);
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 100px;
 }
 .Lucario {
     position: absolute;
     bottom: 0;
     right: 700px;
-    background-color: rgb(193, 25, 25);
-    height: 240px;
-    width: 240px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 200px;
 }
 .Rhydon {
     position: absolute;
     top: 0;
     right: 750px;
-    background-color: rgb(146, 170, 174);
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 150px;
 }
 .Eevee {
     position: absolute;
     top: 250px;
     bottom: 600px;
     right: 300px;
-    background-color: rgb(160, 82, 45);
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 100px;
 }
 .Jolteon {
     position: absolute;
     top: 350px;
     bottom: 0px;
-    background-color: rgb(170, 167, 77);
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 100px;
 }
 .Snorlax {
     position: absolute;
     bottom: 0;
     right: 200px;
-    background-color: rgb(126, 128, 131);
-    height: 240px;
-    width: 240px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 200px;
 }
 .Garchomp {
     position: absolute;
     top: 345px;
     bottom: 0;
     left: 500px;
-    background-color: rgb(3, 37, 126);
-    height: 140px;
-    width: 140px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 100px;
 }
 .Rattata {
     position: absolute;
     top: 150px;
     bottom: 0;
     right: 150px;
-    background-color: rgb(195, 177, 225);
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 80px;
 }
 .Jigglypuff {
     position: absolute;
     top: 100px;
     bottom: 0;
     right: 650px;
-    background-color: rgb(255, 182, 193);
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 70px;
 }
 .Venusaur {
     position: absolute;
     top: 150px;
     bottom: 0;
     right: 450px;
-    background-color: rgb(48, 213, 200);
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 100px;
 }
 .Nidoking {
     position: absolute;
@@ -178,11 +139,8 @@
     top: 450px;
     bottom: 200px;
     right: 600px;
-    background-color: rgb(195, 177, 225);
-    height: 120px;
-    width: 120px;
-    border-radius: 50%;
     cursor: pointer;
+    max-height: 100px;
 }
 .container {
     top: -145px;

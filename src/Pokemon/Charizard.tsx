@@ -9,8 +9,8 @@ const Charizard: React.FC = () => {
             <img
                 draggable="false"
                 src={require("./006.png")}
-                width="100"
-                height="100"
+                width="200"
+                height="200"
             />
         </div>
     );

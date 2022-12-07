@@ -9,8 +9,8 @@ const Jigglypuff: React.FC = () => {
             <img
                 draggable="false"
                 src={require("./039.png")}
-                width="100"
-                height="100"
+                width="70"
+                height="70"
             />
         </div>
     );

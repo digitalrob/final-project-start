@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import Pic from "./Pic";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import BoardSquare from "./BoardSquare";
+import PokeballPic from "./Pokemon/pokeball.png";
+import { Container, Row, Col } from "react-bootstrap";
 
 const renderPiece = (x: number, y: number, [picX, picY]: [number, number]) => {
     if (x === picX && y === picY) {
@@ -44,6 +46,27 @@ const Board: React.FC<BoardProps> = (props) => {
             >
                 {squares}
             </div>
+            <Container>
+                <Row>
+                    <Col>
+                        <div>
+                            <img
+                                id="Pokeball"
+                                style={{
+                                    width: "300px",
+                                    height: "650px",
+                                    marginRight: "20px",
+                                    marginLeft: "20px",
+                                    marginTop: "20px",
+                                    float: "left",
+                                    backgroundImage: `url(${PokeballPic})`,
+                                    backgroundSize: "contain"
+                                }}
+                            ></img>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
         </DndProvider>
     );
 };

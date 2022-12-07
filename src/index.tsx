@@ -18,6 +18,26 @@ import Rattata from "./Pokemon/Rattata";
 import Venusaur from "./Pokemon/Venusaur";
 import Jigglypuff from "./Pokemon/Jigglypuff";
 import Garchomp from "./Pokemon/Garchomp";
+import PokemonViewer from "./Pokemon/PokemonViewer";
+import { pokemonCharacters, PokemonProps } from "./Pokemon/PokemonProperties";
+const pokemonArr = pokemonCharacters.map(
+    (pokemon: {
+        id: string;
+        name: string;
+        picture: string;
+        draggable: boolean;
+        size: string;
+    }): PokemonProps => {
+        return {
+            id: pokemon.id,
+            name: pokemon.name,
+            picture: pokemon.picture,
+            left: 0,
+            top: 0,
+            size: pokemon.size
+        };
+    }
+);
 ReactDOM.render(
     <>
         <div>
@@ -47,7 +67,6 @@ ReactDOM.render(
                 }}
             >
                 <Charizard />
-                <Bulbasaur />
                 <Lucario />
                 <Snorlax />
                 <Wartortle />
@@ -60,6 +79,7 @@ ReactDOM.render(
                 <Venusaur />
                 <Jigglypuff />
                 <Garchomp />
+                {<PokemonViewer {...pokemonArr[0]}></PokemonViewer>}
             </div>
         </React.StrictMode>
     </>,
@@ -68,5 +88,5 @@ ReactDOM.render(
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+// or send to an analytics endpoint. Learn more: {https://bit.ly/CRA-vitals
 reportWebVitals();
