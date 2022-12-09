@@ -1,7 +1,6 @@
 import React from "react";
 import useDragger from "../hooks/useDragger";
 import { Pokemon } from "./Pokemon";
-import "./Pokemon.css";
 export interface PokemonProps {
     pokemon: Pokemon;
 }
