@@ -1,0 +1,7 @@
+.list-item {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    border: 1px solid black;
+    height: 100%;
+    overflow: auto;
+}

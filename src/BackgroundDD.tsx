@@ -35,7 +35,7 @@ export function BDropDown({ options }: { options: string[] }): JSX.Element {
         <span style={{ display: "inline-flex", margin: "auto" }}>
             <Form.Check inline>
                 <Form.Group controlId="formSelectOptions">
-                    <Form.Label>choose a Background</Form.Label>
+                    <Form.Label>Choose a Background</Form.Label>
                     <Form.Select value={choice} onChange={updateChoice}>
                         {options.map((currentOption: string) => (
                             <option key={currentOption} value={currentOption}>
