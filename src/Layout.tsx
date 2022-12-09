@@ -1,8 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
-import { BDropDown } from "./BackgroundDD";
-import { Pokemon } from "./Interface/Pokemon";
 import PokemonList from "./Interface/PokemonList";
 import { PopUpSlider } from "./PopUpSlider";
 
