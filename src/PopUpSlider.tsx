@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
 import { BDropDown } from "./BackgroundDD";
-import { DropDown } from "./DropDown";
 
 export function PopUpSlider(): JSX.Element {
     // type ChangeEvent = React.ChangeEvent<
