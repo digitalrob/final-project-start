@@ -6,47 +6,29 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 PASS src/App.test.tsx
-  ✓ renders the course name somewhere (42 ms)
+  ✓ renders the course name somewhere (32 ms)
 
 -------------------|---------|----------|---------|---------|-------------------
 File               | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s 
 -------------------|---------|----------|---------|---------|-------------------
-All files          |    0.66 |        0 |    2.17 |    0.68 |                   
- src               |    1.35 |        0 |    3.84 |    1.36 |                   
+All files          |    1.44 |        0 |    4.76 |    1.51 |                   
+ src               |     3.7 |        0 |    8.33 |     3.7 |                   
   App.tsx          |     100 |      100 |     100 |     100 |                   
   BackgroundDD.tsx |       0 |        0 |       0 |       0 | 9-41              
-  Board.tsx        |       0 |        0 |       0 |       0 | 7-36              
-  BoardSquare.tsx  |       0 |        0 |       0 |       0 | 13-26             
   DropDown.tsx     |       0 |      100 |       0 |       0 | 9-21              
+  Layout.tsx       |       0 |      100 |       0 |       0 | 7-9               
   Overlay.tsx      |       0 |      100 |       0 |       0 | 7-8               
-  Pic.tsx          |       0 |        0 |       0 |       0 | 5-13              
-  PokemonCard.tsx  |       0 |      100 |       0 |       0 | 5                 
-  PopUpSlider.tsx  |       0 |        0 |       0 |       0 | 11-21             
-  Square.tsx       |       0 |        0 |       0 |       0 | 7-11              
-  constants.ts     |       0 |      100 |     100 |       0 | 1                 
-  game.ts          |       0 |        0 |       0 |       0 | 1-27              
- src/Interface     |       0 |        0 |       0 |       0 |                   
+  PopUpSlider.tsx  |       0 |        0 |       0 |       0 | 10-20             
+ src/Interface     |       0 |      100 |       0 |       0 |                   
   Pokemon.tsx      |       0 |        0 |       0 |       0 |                   
- src/Pokemon       |       0 |      100 |       0 |       0 |                   
-  Bulbasaur.tsx    |       0 |      100 |       0 |       0 | 5-8               
-  Charizard.tsx    |       0 |      100 |       0 |       0 | 4-7               
-  Eevee.tsx        |       0 |      100 |       0 |       0 | 4-7               
-  Garchomp.tsx     |       0 |      100 |       0 |       0 | 4-7               
-  Jigglypuff.tsx   |       0 |      100 |       0 |       0 | 4-7               
-  Jolteon.tsx      |       0 |      100 |       0 |       0 | 4-7               
-  Lucario.tsx      |       0 |      100 |       0 |       0 | 4-7               
-  Nidoking.tsx     |       0 |      100 |       0 |       0 | 4-7               
-  Pikachu.tsx      |       0 |      100 |       0 |       0 | 4-7               
-  Rattata.tsx      |       0 |      100 |       0 |       0 | 4-7               
-  Rhydon.tsx       |       0 |      100 |       0 |       0 | 4-7               
-  Snorlax.tsx      |       0 |      100 |       0 |       0 | 4-7               
-  Venusaur.tsx     |       0 |      100 |       0 |       0 | 4-7               
-  Wartortle.tsx    |       0 |      100 |       0 |       0 | 4-7               
+  PokemonItem.tsx  |       0 |      100 |       0 |       0 | 7-11              
+  PokemonList.tsx  |       0 |      100 |       0 |       0 | 7-11              
+  data.ts          |       0 |      100 |     100 |       0 | 33                
  src/hooks         |       0 |        0 |       0 |       0 |                   
   useDragger.ts    |       0 |        0 |       0 |       0 | 5-62              
 -------------------|---------|----------|---------|---------|-------------------
 Test Suites: 1 passed, 1 total
 Tests:       1 passed, 1 total
 Snapshots:   0 total
-Time:        3.41 s
+Time:        2.065 s
 Ran all test suites.
