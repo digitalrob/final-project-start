@@ -14,8 +14,8 @@ const PokemonItem: React.FC<PokemonProps> = (props) => {
             className={pokemon.name}
             style={{
                 position: "absolute",
-                left: 300,
-                top: 450,
+                left: pokemon.left,
+                top: pokemon.top,
                 bottom: 200,
                 right: 600,
                 height: 120,

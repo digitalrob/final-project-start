@@ -25,6 +25,12 @@ const Layout = () => {
                     favorite Pokémon as well as choose a cool background image!
                     Click show selections to get started!
                 </h5>
+
+                <h6 style={{ textAlign: "left", fontSize: "1.0rem" }}>
+                    Once you get done placing the pokemon into the PC you can
+                    save a screenshot of your work and share it with your
+                    friends
+                </h6>
             </div>
             <div
                 className="container"

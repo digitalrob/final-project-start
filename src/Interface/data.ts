@@ -33,122 +33,182 @@ import Mimikyu from "./../Pokemon/778.png";
 export const PokemonList: Pokemon[] = [
     {
         name: "Bulbasaur",
-        image: bubasaur
+        image: bubasaur,
+        top: 300,
+        left: 300
     },
     {
         name: "Charizard",
-        image: charizard
+        image: charizard,
+        top: 300,
+        left: 250
     },
     {
         name: "Lucario",
-        image: lucario
+        image: lucario,
+        top: 300,
+        left: 1200
     },
     {
         name: "Snorlax",
-        image: snorlax
+        image: snorlax,
+        top: 300,
+        left: 400
     },
     {
         name: "Wartortle",
-        image: wartortle
+        image: wartortle,
+        top: 300,
+        left: 500
     },
     {
         name: "Rikachu",
-        image: Pikachu
+        image: Pikachu,
+        top: 300,
+        left: 600
     },
     {
         name: "Rhydon",
-        image: rhydon
+        image: rhydon,
+        top: 300,
+        left: 550
     },
     {
         name: "Jolteon",
-        image: jolteon
+        image: jolteon,
+        top: 300,
+        left: 650
     },
     {
         name: "Eevee",
-        image: Eevee
+        image: Eevee,
+        top: 300,
+        left: 700
     },
     {
         name: "Nidoking",
-        image: Nidoking
+        image: Nidoking,
+        top: 300,
+        left: 750
     },
     {
         name: "Rattata",
-        image: Rattata
+        image: Rattata,
+        top: 300,
+        left: 800
     },
     {
         name: "Venusaur",
-        image: Venusaur
+        image: Venusaur,
+        top: 300,
+        left: 850
     },
     {
         name: "Jigglypuff",
-        image: Jigglypuff
+        image: Jigglypuff,
+        top: 300,
+        left: 900
     },
     {
         name: "Garchomp",
-        image: Garchomp
+        image: Garchomp,
+        top: 300,
+        left: 950
     },
     {
         name: "Machamp",
-        image: Machamp
+        image: Machamp,
+        top: 300,
+        left: 1000
     },
     {
         name: "Wobbuffet",
-        image: Wobbuffet
+        image: Wobbuffet,
+        top: 300,
+        left: 1050
     },
     {
         name: "Shuckle",
-        image: Shuckle
+        image: Shuckle,
+        top: 300,
+        left: 1100
     },
     {
         name: "Houndoom",
-        image: Houndoom
+        image: Houndoom,
+        top: 300,
+        left: 1150
     },
     {
         name: "Smeargle",
-        image: Smeargle
+        image: Smeargle,
+        top: 300,
+        left: 1250
     },
     {
         name: "Blaziken",
-        image: Blaziken
+        image: Blaziken,
+        top: 300,
+        left: 1300
     },
     {
         name: "Sharpedo",
-        image: Sharpedo
+        image: Sharpedo,
+        top: 400,
+        left: 1300
     },
     {
         name: "Magnezone",
-        image: Magnezone
+        image: Magnezone,
+        top: 450,
+        left: 1300
     },
     {
         name: "Talonflame",
-        image: Talonflame
+        image: Talonflame,
+        top: 500,
+        left: 1300
     },
     {
         name: "Pangoro",
-        image: Pangoro
+        image: Pangoro,
+        top: 550,
+        left: 1300
     },
     {
         name: "Yveltal",
-        image: Yveltal
+        image: Yveltal,
+        top: 600,
+        left: 1300
     },
     {
         name: "Zygarge",
-        image: Zygarge
+        image: Zygarge,
+        top: 650,
+        left: 1300
     },
     {
         name: "Vikavolt",
-        image: Vikavolt
+        image: Vikavolt,
+        top: 700,
+        left: 1300
     },
     {
         name: "Toxapex",
-        image: Toxapex
+        image: Toxapex,
+        top: 750,
+        left: 1300
     },
     {
         name: "Palossand",
-        image: Palossand
+        image: Palossand,
+        top: 800,
+        left: 1300
     },
     {
         name: "Mimikyu",
-        image: Mimikyu
+        image: Mimikyu,
+        top: 850,
+        left: 1300
     }
 ];
